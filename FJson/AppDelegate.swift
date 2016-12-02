@@ -22,7 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         //Init
         if let button = statusItem.button {
-            button.image = NSImage(named: "AppIcon")
+            button.image = NSImage(named: "Icon")
             
             button.target = self
             button.action = #selector(self.statusBarButtonClicked(sender:))
